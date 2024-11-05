@@ -18,7 +18,7 @@ This project is a **computer vision-based application** that implements **finger
 - **Flexible Parameters**: Adjustable confidence levels for hand detection and tracking.
 
 ## Demo
-![Finger Counter and Volume Control Demo](Finger_counter_output.mp4)  <!-- Include a demo image or video showing the features -->
+![Finger Counter and Volume Control Demo](demo.gif)  <!-- Include a demo image or video showing the features -->
 
 ## Installation
 1. **Clone the repository**
