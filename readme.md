@@ -26,11 +26,14 @@ This project is a **computer vision-based application** that implements **finger
    git clone https://github.com/abou-zithar/Computer-vision-Project-6-Finger-counter.git
    cd Computer-vision-Project-6-Finger-counter
     ```
-
+## install required libraries (consider using a virtual environment)
+```bash
+Copy code
+pip install -r requirements.txt
+```
 ## Run the Application
 
 ``` bash
-
 python main.py
 ```
 ## Instructions:
@@ -38,6 +41,7 @@ python main.py
 - Ensure your hand is visible to the camera.
 - The application will display the number of fingers detected and adjust the system volume based on hand gestures.
 - You can adjust parameters in the code for optimal performance based on lighting and camera quality.
+
 ## Project Structure
 - `main.py`: Main script to run the finger counting and volume control application.
 - `FingerCounterModule/`: Contains the `FingerCounterClass` for finger counting functionality.
@@ -45,6 +49,7 @@ python main.py
 - `VolumeHandControl/`: Contains the `VolumeHandControl` class to adjust system volume using hand gestures.
 - `Finger_images/`: Stores images related to finger counting (if any).
 - `Finger counter output.mp4`: Sample output video of the project in action (if available).
+-  `requirements.txt`: List of dependencies required for the project.
 
 ## Requirements
 - Python 3.x
@@ -52,6 +57,8 @@ python main.py
 - Mediapipe
 - Pycaw
 - Numpy
+
+For a complete list, refer to the `requirements.txt` file.
 
 
 ## Contributing
