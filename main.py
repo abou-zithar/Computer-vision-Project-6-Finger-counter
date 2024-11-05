@@ -1,5 +1,5 @@
 # from HandTrackingmodule import HandTracking
-from VolumeHandControl import VolumeHandControl
+
 from FingerCounterModule import FingerCounterClass
 import cv2 
 import time 
@@ -18,7 +18,7 @@ if __name__ == "__main__":
     
 
     # handTracking = HandTracking()
-    VHC = VolumeHandControl()
+    
     FCC =FingerCounterClass()
     while True:
             sucess , img =  cap.read()

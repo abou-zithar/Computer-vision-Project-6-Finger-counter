@@ -1,6 +1,6 @@
-# 6 Finger Counter and Volume Hand Control - Computer Vision Project
+# 6 Finger Counter  - Computer Vision Project
 
-This project is a **computer vision-based application** that implements **finger counting** and **volume control using hand gestures**. The project uses **OpenCV**, **Mediapipe**, and **Python** to detect hand landmarks, enabling real-time interaction through hand gestures. It also includes modules for tracking hands, counting fingers, and adjusting system volume based on detected gestures.
+This project is a **computer vision-based application** that implements **finger counting** . The project uses **OpenCV**, **Mediapipe**, and **Python** to detect hand landmarks, enabling real-time interaction through hand gestures. It also includes modules for tracking hands, counting fingers, and adjusting system volume based on detected gestures.
 
 ## Table of Contents
 - [Features](#features)
@@ -18,7 +18,7 @@ This project is a **computer vision-based application** that implements **finger
 - **Flexible Parameters**: Adjustable confidence levels for hand detection and tracking.
 
 ## Demo
-![Finger Counter and Volume Control Demo](demo.gif)  <!-- Include a demo image or video showing the features -->
+![Finger Counter](demo.gif)  <!-- Include a demo image or video showing the features -->
 
 ## Installation
 1. **Clone the repository**
@@ -28,7 +28,7 @@ This project is a **computer vision-based application** that implements **finger
     ```
 ## install required libraries (consider using a virtual environment)
 ```bash
-Copy code
+
 pip install -r requirements.txt
 ```
 ## Run the Application
@@ -46,7 +46,6 @@ python main.py
 - `main.py`: Main script to run the finger counting and volume control application.
 - `FingerCounterModule/`: Contains the `FingerCounterClass` for finger counting functionality.
 - `HandTrackingmodule/`: Contains the `HandTracking` class to detect and track hand landmarks using Mediapipe.
-- `VolumeHandControl/`: Contains the `VolumeHandControl` class to adjust system volume using hand gestures.
 - `Finger_images/`: Stores images related to finger counting (if any).
 - `Finger counter output.mp4`: Sample output video of the project in action (if available).
 -  `requirements.txt`: List of dependencies required for the project.
